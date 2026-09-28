@@ -38,9 +38,9 @@ Install anything missing:
 
 All XSC demos must use **GitHub Enterprise** accounts.
 
-**Ask the user:** Do you already have a GitHub Enterprise account?
+**Ask the user (via AskUserQuestion with three options):** Do you have a GitHub Enterprise account?
 
-- **Yes** — Confirm it's active and ready (they can verify at https://github-copilot.corp.adobe.com).
+- **Yes** — Confirm it's active and ready to use.
 - **No** — Direct them to set up a new account:
   → **https://github-copilot.corp.adobe.com/getting-started**
   
@@ -50,6 +50,11 @@ All XSC demos must use **GitHub Enterprise** accounts.
   3. Set up your profile
   
   Your demo repos will live under your Enterprise account org.
+
+- **I don't know, can I check?** — Open the GitHub Enterprise SSO login so they can verify:
+  → **https://github.com/enterprises/adobe-prd/sso**
+  
+  They can log in with their Adobe credentials to check if they already have access. If they log in successfully, they have an account. If not, they'll need to create one at the getting-started link above.
 
 ## 3. Connect the AEM DA content tools (recommended)
 
@@ -86,5 +91,6 @@ Then ask what the user wants to do next and recommend:
 | Resource | Link |
 |---|---|
 | GitHub Enterprise Setup | https://github-copilot.corp.adobe.com/getting-started |
+| GitHub Enterprise SSO Login | https://github.com/enterprises/adobe-prd/sso |
 | Node.js | https://nodejs.org |
 | AEM CLI (npm) | `@adobe/aem-cli` |
