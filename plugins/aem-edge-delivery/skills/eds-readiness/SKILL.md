@@ -34,16 +34,18 @@ Install anything missing:
 - **git** — https://git-scm.com
 - **AEM CLI**: `sudo npm install -g @adobe/aem-cli`
 
-## 2. Create your GitHub account
+## 2. Create your GitHub Enterprise account
 
-1. Go to https://github.com → **Sign up**.
-2. Create the account. Using the **Adobe email** is recommended for identity/attribution, but not required — GitHub
-   emails a code to validate it.
+All XSC demos must use **GitHub Enterprise** accounts. Set up your account here:
 
-> **No org or special naming needed.** Demo repos go directly under the personal GitHub account. The old
-> `<username>-adobe` org convention is gone: the AEM Code Sync **setup bot** now lets you add your admin account
-> directly (its **Users** step, in the `create-eds-repo` skill), which is what the org name used to be a workaround
-> for. A GitHub org is optional; if used, any name works.
+→ **https://github-copilot.corp.adobe.com/getting-started**
+
+Follow the setup wizard to:
+1. Create your GitHub Enterprise account (use your Adobe email)
+2. Verify and activate your account
+3. Set up your profile
+
+Your demo repos will live under your Enterprise account org.
 
 ## 3. Connect the AEM DA content tools (recommended)
 
@@ -65,7 +67,7 @@ Optional but recommended: without it, content seeding falls back to the browser 
 
 Confirm and summarize as a ✅ checklist:
 - git, Node, and the AEM CLI are installed.
-- A GitHub account exists (Adobe email recommended, not required).
+- A GitHub Enterprise account is created and ready.
 - *(Recommended)* the AEM DA MCP is connected (for content seeding).
 
 Then ask what the user wants to do next and recommend:
@@ -79,6 +81,6 @@ Then ask what the user wants to do next and recommend:
 
 | Resource | Link |
 |---|---|
-| GitHub | https://github.com |
+| GitHub Enterprise Setup | https://github-copilot.corp.adobe.com/getting-started |
 | Node.js | https://nodejs.org |
 | AEM CLI (npm) | `@adobe/aem-cli` |
