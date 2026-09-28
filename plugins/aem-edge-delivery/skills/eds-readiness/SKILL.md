@@ -34,18 +34,22 @@ Install anything missing:
 - **git** — https://git-scm.com
 - **AEM CLI**: `sudo npm install -g @adobe/aem-cli`
 
-## 2. Create your GitHub Enterprise account
+## 2. GitHub Enterprise account
 
-All XSC demos must use **GitHub Enterprise** accounts. Set up your account here:
+All XSC demos must use **GitHub Enterprise** accounts.
 
-→ **https://github-copilot.corp.adobe.com/getting-started**
+**Ask the user:** Do you already have a GitHub Enterprise account?
 
-Follow the setup wizard to:
-1. Create your GitHub Enterprise account (use your Adobe email)
-2. Verify and activate your account
-3. Set up your profile
-
-Your demo repos will live under your Enterprise account org.
+- **Yes** — Confirm it's active and ready (they can verify at https://github-copilot.corp.adobe.com).
+- **No** — Direct them to set up a new account:
+  → **https://github-copilot.corp.adobe.com/getting-started**
+  
+  Follow the setup wizard to:
+  1. Create your GitHub Enterprise account (use your Adobe email)
+  2. Verify and activate your account
+  3. Set up your profile
+  
+  Your demo repos will live under your Enterprise account org.
 
 ## 3. Connect the AEM DA content tools (recommended)
 
